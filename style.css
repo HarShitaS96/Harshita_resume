@@ -51,10 +51,15 @@ body {
     color: #666;
 }
 
-.hero-text h1 {
-    font-size: 56px;
+.hero-text h1{
 
-    margin-bottom: 20px;
+font-size:64px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+line-height:1.1;
 }
 
 .hero-text h2 {
