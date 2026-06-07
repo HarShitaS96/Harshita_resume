@@ -80,20 +80,23 @@ line-height:1.1;
 
 /* JOURNEY CARD */
 
-.journey-card {
-    margin-top: 50px;
+.journey-card{
 
-    background: white;
+margin-top:50px;
 
-    padding: 30px;
+background:rgba(255,255,255,.8);
 
-    border-radius: 20px;
+backdrop-filter:blur(15px);
 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+padding:35px;
 
-    max-width: 350px;
+border-radius:25px;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.08);
+
+max-width:350px;
 }
-
 .journey-card h3 {
     margin-bottom: 15px;
 }
