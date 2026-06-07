@@ -10,8 +10,15 @@
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #fafafa;
-    color: #222;
+
+    background:
+    radial-gradient(circle at top left,#dbeafe 0%,transparent 30%),
+    radial-gradient(circle at bottom right,#fce7f3 0%,transparent 30%),
+    radial-gradient(circle at center,#f8fafc 0%,#ffffff 70%);
+
+    color:#222;
+
+    overflow-x:hidden;
 }
 
 /* HERO SECTION */
